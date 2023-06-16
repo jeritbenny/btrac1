@@ -434,7 +434,7 @@ button:focus { outline: none;}
 .provide-section .provide_content h2 {margin-bottom: 30px; padding: 0 10px;}
 .provide-section .service_contentbox .service-box figure {height: 95px; width: 95px; line-height: 95px;}
 .provide-section .service_contentbox .service-box {padding: 15px 10px; margin-bottom: 15px;}
-.provide-section .service_contentbox .service-box .box-content {padding-left: 28px;}
+.provide-section .service_contentbox .service-box .box-content {padding-left: 38px;}
 .provide-section .service_contentbox .service-box p {margin-bottom: 4px;}
 .provide-section .service_contentbox .service-box .read_more {font-size: 14px; line-height: 20px;}
 .provide-section .service_contentbox .service-box .box-image {padding-top: 30px;}
@@ -456,6 +456,7 @@ button:focus { outline: none;}
 @media screen and (min-width: 860px) and (max-width: 991px) {
 .sub-banner .banner-section .banner_wrapper .sub-bannerimage {bottom: -230px; right: -162px;}
 .sub-banner .banner-section .banner_wrapper .sub-bannerimage img {width: 460px;}
+
 }
 @media only screen and (max-width : 767px){
 h1 {font-size: 34px; line-height: 42px;}

@@ -32,6 +32,8 @@
     <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
     <link href="../aos%402.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -182,31 +184,31 @@
                     <div class="need_content"> 
                         <h3>Need any Help!</h3>
                         <p class="text-size-16"></p>
-                        <form onSubmit="msg()">
+                        <form>
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group mb-0">    
-                                    <input type="text" id="name" class="form_style" placeholder="Your Name:" > 
+                                    <input type="text" id="name" class="form_style" placeholder="Your Name:" required> 
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group mb-0">
-                                    <input type="email" id="email" class="form_style" placeholder="Your Email:" >
+                                    <input type="email" id="email" class="form_style" placeholder="Your Email:" required>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group mb-0">
-                                    <input type="tel" id="phone" class="form_style" placeholder="Phone:" >
+                                    <input type="text" id="subject" class="form_style" placeholder="subject" required >
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class=" form-group mb-0">    
-                                    <textarea class="form_style" id="msg" placeholder="Message" rows="3" ></textarea>
+                                    <textarea class="form_style" id="message" placeholder="Message" rows="3" required></textarea>
                                     </div>
                                 </div>
                             </div>
                             <div class="manage-button text-center">
-                                <button type="submit" class="submit_now text-decoration-none">Submit Now<i class="circle fa-regular fa-angle-right"></i></button>
+                                <button id="btn" type="submit" class="submit_now text-decoration-none">Send<i class="circle fa-regular fa-angle-right"></i></button>
                             </div>
                         </form>
                         <figure class="faq-image mb-0">
@@ -336,24 +338,7 @@
 <script src="assets/js/custom.js"></script>
 <script src="assets/js/animation_links.js"></script>
 <script src="assets/js/animation.js"></script>
-<script src="assets/js/mail.js"></script>
+<script src="assets/js/contact.js"></script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
-<script>
-    function msg(){
-    // Email.send({
-    //     Host : "smtp.gmail.com",
-    //     Username : "brandstorekerala2@gmail.com",
-    //     Password : "Abcd-1234",
-    //     To : "jeritbenny@gmail.com",
-    //     From : document.getElementById('email').value,
-    //     Subject : "Enquiry from website",
-    //     Body : "And this is the body"
-    // }).then(
-    //   message => alert("email sent")
-    // );
-    alert("hey")
-    
-};
-</script>
 </body>
 </html>

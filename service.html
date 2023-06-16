@@ -32,6 +32,8 @@
     <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
     <link href="../aos%402.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <!--Header  -->
@@ -148,7 +150,7 @@
                                 <img src="assets/images/search.png" alt="" class="img-fluid">
                             </figure> 
                         </div>
-                        <div class="box-content">
+                        <div class="box-content mb-3">
                             <h4>Research and Analysis:</h4>
                             <p class="text-size-16">
                                 We conduct in-depth research and analysis on emerging technologies, 
@@ -192,7 +194,7 @@
                                 <img src="assets/images/service-scienceicon.png" alt="" class="img-fluid">
                             </figure>
                         </div>
-                        <div class="box-content">
+                        <div class="box-content mb-2">
                             <h4>Innovation Management:</h4>
                             <p class="text-size-16"> 
                                 Staying ahead of the competition requires a focus on innovation. Our innovation 
@@ -212,7 +214,7 @@
                                 <img src="assets/images/service-analysicon.png" alt="" class="img-fluid">
                             </figure>
                         </div>
-                        <div class="box-content">
+                        <div class="box-content mb-3">
                             <h4>Data Analytics:</h4>
                             <p class="text-size-16">
                                 Data is a valuable asset for businesses, and our data analytics services 
@@ -314,28 +316,51 @@
             </div>
         </div>
         <div id="fixed-form-container">
-            <div class="image">
-                <figure class="footer-image mb-0">
-                    <img src="assets/images/footer-image.png" alt="" class="img-fluid">
-                </figure>
+                <div class="chat-bar-collapsible">
+                <button id="chat-button" type="button" class="collapsible">Chat with us!
+                    <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+                </button>
+        
+                <div class="content">
+                    <div class="full-chat-block">
+                        <!-- Message Container -->
+                        <div class="outer-container">
+                            <div class="chat-container">
+                                <!-- Messages -->
+                                <div id="chatbox">
+                                    <h5 id="chat-timestamp"></h5>
+                                    <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                                </div>
+        
+                                <!-- User input box -->
+                                <div class="chat-bar-input-block">
+                                    <div id="userInput">
+                                        <input id="textInput" class="input-box" type="text" name="msg"
+                                            placeholder="Tap 'Enter' to send a message">
+                                        <p></p>
+                                    </div>
+        
+                                    <div class="chat-bar-icons">
+                                        <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                            onclick="heartButton()"></i>
+                                        <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                            onclick="sendButton()"></i>
+                                    </div>
+                                </div>
+        
+                                <div id="chat-bar-bottom">
+                                    <p></p>
+                                </div>
+        
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+        
             </div>
-            <div class="body">
-                <form id="contactpage1" method="POST" action="./contact-form.php">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your Name:" name="name"> 
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Your Email:" name="emailid">
-                    </div>
-                    <div class="form-group">
-                        <input type="tel" class="form-control" placeholder="Phone:" name="phone">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form_style" placeholder="Message" rows="3" name="msg"></textarea>
-                    </div>
-                    <button type="submit" class="submit_now text-decoration-none">Submit Now</button>
-                </form>
-            </div>
+
+         </div>
         </div>
         <div class="copyright">
             <div class="row">
@@ -355,5 +380,7 @@
 <script src="assets/js/custom.js"></script>
 <script src="assets/js/animation_links.js"></script>
 <script src="assets/js/animation.js"></script>
+<script src="assets/js/chat.js"></script>
+<script src="assets/js/responses.js"></script>
 </body>
 </html>
