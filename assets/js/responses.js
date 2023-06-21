@@ -114,7 +114,11 @@ function getBotResponse(input) {
     // Simple responses
     if (input == "hello") {
         return "Thankyou for connecting with btrac";
-    } else if (input == "goodbye") {
+    } else if(input == "Hello") {
+        return "Thankyou for connecting with btrac";
+    }
+
+    else if (input == "goodbye") {
         return "Talk to you later!";
     } 
       else if (input == "bye") {

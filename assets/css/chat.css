@@ -7,6 +7,26 @@
     box-shadow: 0 8px 16px 0 rgba(8, 7, 7, 0.2);
 }
 
+#bot{
+    margin-left: -280px;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    #bot{
+        margin-left: -340px;      
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px){
+    #bot{
+        margin-left: -490px;      
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    #bot{
+        margin-left: -290px;      
+    }
+}
+
+
 .collapsible {
     background-color: rgb(21, 218, 27);
     color: white;
@@ -39,7 +59,7 @@
 }
 
 .outer-container {
-    min-height: 500px;
+    min-height: 400px;
     bottom: 0%;
     position: relative;
 }

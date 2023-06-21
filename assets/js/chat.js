@@ -49,8 +49,9 @@ firstBotMessage();
 // Retrieves the response
 function getHardResponse(userText) {
     let botResponse = getBotResponse(userText);
-    let botHtml = '<p class="botText"><span>' + botResponse + '</span></p>';
+    let botHtml = '<span id="bot"><img src="./assets/images/robot.gif" alt="" width="40px"height="60px"></span><p class="botText"> <span>' + botResponse + '</span></p>';
     $("#chatbox").append(botHtml);
+
 
     document.getElementById("chat-bar-bottom").scrollIntoView(true);
 }
