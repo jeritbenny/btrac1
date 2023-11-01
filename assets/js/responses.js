@@ -61,6 +61,12 @@ function getBotResponse(input) {
     else if (input == "contact") {
         return "You can contact us through this numbers  7510171182 ,7902323129 (Mob)";
     }
+    else if (input == "Btrac number") {
+        return "You can contact us through this numbers  7510171182 ,7902323129 (Mob)";
+    }
+    else if (input == "btrac number") {
+        return "You can contact us through this numbers  7510171182 ,7902323129 (Mob)";
+    }
     
     else if (input == "contact number") {
         return "You can contact us through this numbers  7510171182 ,7902323129 (Mob)";
@@ -91,7 +97,10 @@ function getBotResponse(input) {
     }
     else if (input == "Erp") {
         return "Enterprise resource planning (ERP) development is the process of creating an ERP system, which is a software application that integrates all the core business processes of an organization, such as accounting, manufacturing, sales, and human resources. ERP systems are designed to help businesses improve their efficiency, productivity, and profitability.";
+    } else if (input == "ERP") {
+        return "Enterprise resource planning (ERP) development is the process of creating an ERP system, which is a software application that integrates all the core business processes of an organization, such as accounting, manufacturing, sales, and human resources. ERP systems are designed to help businesses improve their efficiency, productivity, and profitability.";
     }
+
     else if (input == "about btrac") {
         return "Btrac is formed by a group of entrepreneurs to focus solely on building skilled manpower pool, to bridge the gap between industry requirements and academy resources. Our professional team comprises of talented individuals that have been in the industry for years and bring 5 to 25 years of knowledge to the table.";
     }
@@ -108,6 +117,10 @@ function getBotResponse(input) {
         return "Btrac is formed by a group of entrepreneurs to focus solely on building skilled manpower pool, to bridge the gap between industry requirements and academy resources. Our professional team comprises of talented individuals that have been in the industry for years and bring 5 to 25 years of knowledge to the table.";
     }
     else if (input == "About company") {
+        return "Btrac is formed by a group of entrepreneurs to focus solely on building skilled manpower pool, to bridge the gap between industry requirements and academy resources. Our professional team comprises of talented individuals that have been in the industry for years and bring 5 to 25 years of knowledge to the table.";
+    }
+   
+    else if (input == "BTRAC") {
         return "Btrac is formed by a group of entrepreneurs to focus solely on building skilled manpower pool, to bridge the gap between industry requirements and academy resources. Our professional team comprises of talented individuals that have been in the industry for years and bring 5 to 25 years of knowledge to the table.";
     }
 

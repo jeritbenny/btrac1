@@ -60,6 +60,11 @@ body{
    margin-right:190px ;
    margin-bottom: 100px;
 }
+#erp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* @media screen and (max-width:600px){
     #mean{
         width: 200px;
@@ -88,12 +93,36 @@ body{
     }
 }@media only screen and (min-width: 768px) and (max-width: 1024px){
     #mean{
-       padding-right: 100px;
-       margin-bottom: -10px;
-        width: 400px;
+       padding-right: -90px;
+       margin-bottom: 100px;
+        width: 350px;
     }
 }
+@media only screen and (width:375px){
+    #mean{
+        margin-right: 80px;
+    }
+    #mern{
+      padding-left: 190px;
+      
+    }
+    #erp{
+        margin-right: -10px ;
 
+    }
+    #img1{
+        margin-left: 220px ;
+    }
+    #digi1{
+        padding-left: px;
+    }
+    #hand{
+        margin-right:  10px;
+    }
+}
+#hand{
+    margin-right: 1px;
+}
 /* @media only screen  and (min-width: 1280px){
     #mean{
         width: 500px;
